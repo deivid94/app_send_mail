@@ -25,6 +25,7 @@ class mensagem {
   $mensagem->__SET('assunto',$_POST['assunto']);
   $mensagem->__SET('mensagem',$_POST['mensagem']);
 
+  
   if ($mensagem->mensagemValida()){
     echo 'Mensagem é valida';
   }

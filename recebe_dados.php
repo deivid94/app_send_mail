@@ -17,8 +17,11 @@ class mensagem {
   public function mensagemValida(){
     if (empty($this->para) || empty($this->assunto) || empty($this->mensagem))
     return false;
+    return true;
   }
+  
 }
+
 
   $mensagem = new Mensagem();
   $mensagem->__SET('para',$_POST['para']);

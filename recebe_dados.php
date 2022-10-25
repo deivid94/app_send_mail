@@ -14,28 +14,23 @@ class mensagem {
     $this->$atributo = $valor;
 
   }
+
   public function mensagemValida(){
     if (empty($this->para) || empty($this->assunto) || empty($this->mensagem))
     return false;
-    return true;
+    
   }
-  
-}
-
+}  
 
   $mensagem = new Mensagem();
   $mensagem->__SET('para',$_POST['para']);
   $mensagem->__SET('assunto',$_POST['assunto']);
   $mensagem->__SET('mensagem',$_POST['mensagem']);
 
-  
   if ($mensagem->mensagemValida()){
     echo 'Mensagem é valida';
+  } else {
+    echo 'Mensagem nao é valida';
   }
-
-
-
-
-
 
 ?>

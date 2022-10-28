@@ -12,9 +12,10 @@
 		<div class="container">  
 
 			<div class="py-3 text-center">
-				<img class="d-block mx-auto mb-2" src="logo.png" alt="" width="72" height="72">
+				<img class="d-block mx-auto mb-2" src="logo.png"alt="" width="72" height="72" >
 				<h2>Send Mail</h2>
-				<p class="lead">Seu app de envio de e-mails particular!</p>
+				<p class="lead">Seu app de envio de e-mails privado</p>
+				<p class="lead">By d31v1d</p>
 			</div>
 
       		<div class="row">
